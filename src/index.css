@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-display);
+}
+
+/* Custom scrollbars for dark industrial interface */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090d16;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* Sleek Interface Neon Glows & Accents */
+.sleek-cyan-glow {
+  box-shadow: 0 0 15px rgba(6, 182, 212, 0.4);
+}
+
+.sleek-cyan-text-shadow {
+  text-shadow: 0 0 8px rgba(6, 182, 212, 0.5);
+}
+
+.sleek-card-hover {
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.sleek-card-hover:hover {
+  border-color: rgba(6, 182, 212, 0.4);
+  background-color: rgba(6, 182, 212, 0.02);
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.7);
+}
+

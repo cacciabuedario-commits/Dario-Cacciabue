@@ -1,0 +1,6 @@
+{
+  "name": "Dimension 3D",
+  "description": "Tienda de productos impresos en 3D y servicio de impresión personalizada con cotizador y visor de archivos STL interactivo.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
